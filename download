@@ -1,0 +1,12 @@
+# Secrets - never commit
+.streamlit/secrets.toml
+.env
+# Local demo database (rebuilt automatically)
+data/*.db
+data/*.building-*
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/

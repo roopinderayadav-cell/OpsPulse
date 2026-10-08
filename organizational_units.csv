@@ -1,0 +1,54 @@
+id,organization_id,parent_id,unit_type,name,code,is_active
+120d9ef0-5cd4-5389-912c-7e1087afbf83,6146dc2e-9f7e-592f-8724-32cde8555443,,business_unit,Corporate Travel Operations,,1
+14a5d9ed-be83-5bda-8e28-f5cc11f1a885,6146dc2e-9f7e-592f-8724-32cde8555443,120d9ef0-5cd4-5389-912c-7e1087afbf83,client,Client Aurora (Synthetic),,1
+eadf35c9-d681-56b2-9f10-bf3f0f0eb143,6146dc2e-9f7e-592f-8724-32cde8555443,14a5d9ed-be83-5bda-8e28-f5cc11f1a885,process,Corporate Travel Support,,1
+3299eb38-f9af-5c7d-951a-8a4de2cc5d37,6146dc2e-9f7e-592f-8724-32cde8555443,eadf35c9-d681-56b2-9f10-bf3f0f0eb143,location,Bangalore,,1
+c91e07cb-7b3e-5dfc-ab22-fa9bf6cac94b,6146dc2e-9f7e-592f-8724-32cde8555443,3299eb38-f9af-5c7d-951a-8a4de2cc5d37,team,Corporate Travel Support - Bangalore - Team 1,,1
+0d8eeb71-9a9e-5cd9-8eff-77ea9e79b441,6146dc2e-9f7e-592f-8724-32cde8555443,3299eb38-f9af-5c7d-951a-8a4de2cc5d37,team,Corporate Travel Support - Bangalore - Team 2,,1
+73a8e28c-89a1-5d7a-b67a-df4285d0fb64,6146dc2e-9f7e-592f-8724-32cde8555443,eadf35c9-d681-56b2-9f10-bf3f0f0eb143,location,Gurgaon,,1
+8206d591-3614-5f65-b21d-e22be9128394,6146dc2e-9f7e-592f-8724-32cde8555443,73a8e28c-89a1-5d7a-b67a-df4285d0fb64,team,Corporate Travel Support - Gurgaon - Team 1,,1
+6f45d5fd-8171-5c46-ace7-e2d2e6a01ff7,6146dc2e-9f7e-592f-8724-32cde8555443,73a8e28c-89a1-5d7a-b67a-df4285d0fb64,team,Corporate Travel Support - Gurgaon - Team 2,,1
+0bfaaebb-91c5-5486-9220-a6e93fe8bb64,6146dc2e-9f7e-592f-8724-32cde8555443,eadf35c9-d681-56b2-9f10-bf3f0f0eb143,location,Visakhapatnam,,1
+a017924f-7248-5e42-a788-743587517a84,6146dc2e-9f7e-592f-8724-32cde8555443,0bfaaebb-91c5-5486-9220-a6e93fe8bb64,team,Corporate Travel Support - Visakhapatnam - Team 1,,1
+28b267b1-420b-5dbf-8099-b52524889256,6146dc2e-9f7e-592f-8724-32cde8555443,0bfaaebb-91c5-5486-9220-a6e93fe8bb64,team,Corporate Travel Support - Visakhapatnam - Team 2,,1
+9c794a53-ceb4-5a71-9b68-cb87dd638dd8,6146dc2e-9f7e-592f-8724-32cde8555443,14a5d9ed-be83-5bda-8e28-f5cc11f1a885,process,Ticketing and Exchanges,,1
+e6cb660d-81e3-592f-90dc-4c74c90e5611,6146dc2e-9f7e-592f-8724-32cde8555443,9c794a53-ceb4-5a71-9b68-cb87dd638dd8,location,Bangalore,,1
+681ddd12-d48c-5628-9e96-7f0f125e7b55,6146dc2e-9f7e-592f-8724-32cde8555443,e6cb660d-81e3-592f-90dc-4c74c90e5611,team,Ticketing and Exchanges - Bangalore - Team 1,,1
+11dc4f4e-f1bb-5532-99ff-7d1af8f545a3,6146dc2e-9f7e-592f-8724-32cde8555443,e6cb660d-81e3-592f-90dc-4c74c90e5611,team,Ticketing and Exchanges - Bangalore - Team 2,,1
+bf0a6444-b3c2-5b52-9e7c-beffc44eb4bd,6146dc2e-9f7e-592f-8724-32cde8555443,9c794a53-ceb4-5a71-9b68-cb87dd638dd8,location,Gurgaon,,1
+c146208a-fc5d-5471-8042-6669aa1f39b5,6146dc2e-9f7e-592f-8724-32cde8555443,bf0a6444-b3c2-5b52-9e7c-beffc44eb4bd,team,Ticketing and Exchanges - Gurgaon - Team 1,,1
+08c43dab-5610-5eee-b353-47d5f30075f9,6146dc2e-9f7e-592f-8724-32cde8555443,bf0a6444-b3c2-5b52-9e7c-beffc44eb4bd,team,Ticketing and Exchanges - Gurgaon - Team 2,,1
+3b177a1a-469c-57b6-9b0c-acd6447449a1,6146dc2e-9f7e-592f-8724-32cde8555443,9c794a53-ceb4-5a71-9b68-cb87dd638dd8,location,Visakhapatnam,,1
+a1c30ec5-a7bf-589b-9020-884b661d15f9,6146dc2e-9f7e-592f-8724-32cde8555443,3b177a1a-469c-57b6-9b0c-acd6447449a1,team,Ticketing and Exchanges - Visakhapatnam - Team 1,,1
+5ece0166-c386-5f7d-afa5-ffbbebeec3c8,6146dc2e-9f7e-592f-8724-32cde8555443,3b177a1a-469c-57b6-9b0c-acd6447449a1,team,Ticketing and Exchanges - Visakhapatnam - Team 2,,1
+b307ad6f-3cbc-5ddc-b7e0-74712309340f,6146dc2e-9f7e-592f-8724-32cde8555443,14a5d9ed-be83-5bda-8e28-f5cc11f1a885,process,Refunds,,1
+bcb6ef2b-b00e-5aa3-88f4-dd05bf7432c7,6146dc2e-9f7e-592f-8724-32cde8555443,b307ad6f-3cbc-5ddc-b7e0-74712309340f,location,Bangalore,,1
+8454abff-f09a-533b-ba14-07130ed0ed6f,6146dc2e-9f7e-592f-8724-32cde8555443,bcb6ef2b-b00e-5aa3-88f4-dd05bf7432c7,team,Refunds - Bangalore - Team 1,,1
+df05adc3-aebc-5d74-9ec3-49524586307b,6146dc2e-9f7e-592f-8724-32cde8555443,bcb6ef2b-b00e-5aa3-88f4-dd05bf7432c7,team,Refunds - Bangalore - Team 2,,1
+fce9e67d-3b17-5642-a041-d5558a45fd80,6146dc2e-9f7e-592f-8724-32cde8555443,b307ad6f-3cbc-5ddc-b7e0-74712309340f,location,Gurgaon,,1
+fbbd1e42-adbb-54d2-82c6-d5a7e492271d,6146dc2e-9f7e-592f-8724-32cde8555443,fce9e67d-3b17-5642-a041-d5558a45fd80,team,Refunds - Gurgaon - Team 1,,1
+ab2724c1-b627-5b75-93cb-575042c0962b,6146dc2e-9f7e-592f-8724-32cde8555443,fce9e67d-3b17-5642-a041-d5558a45fd80,team,Refunds - Gurgaon - Team 2,,1
+41201b34-1bc3-5541-b324-2635621c1eb3,6146dc2e-9f7e-592f-8724-32cde8555443,b307ad6f-3cbc-5ddc-b7e0-74712309340f,location,Visakhapatnam,,1
+a613c98f-77a1-5e24-931f-edc3a827493a,6146dc2e-9f7e-592f-8724-32cde8555443,41201b34-1bc3-5541-b324-2635621c1eb3,team,Refunds - Visakhapatnam - Team 1,,1
+04e4f090-3889-5b8e-bf09-c64cb897e3a7,6146dc2e-9f7e-592f-8724-32cde8555443,41201b34-1bc3-5541-b324-2635621c1eb3,team,Refunds - Visakhapatnam - Team 2,,1
+e3be0cc8-86e0-53ab-bc0c-aa5730a9ef11,6146dc2e-9f7e-592f-8724-32cde8555443,120d9ef0-5cd4-5389-912c-7e1087afbf83,client,Client Meridian (Synthetic),,1
+990586e7-e2c1-57dd-8fb9-3b03623b653c,6146dc2e-9f7e-592f-8724-32cde8555443,e3be0cc8-86e0-53ab-bc0c-aa5730a9ef11,process,Back Office,,1
+719ecd8f-4d59-5e2d-9267-e1207332cda1,6146dc2e-9f7e-592f-8724-32cde8555443,990586e7-e2c1-57dd-8fb9-3b03623b653c,location,Bangalore,,1
+ab37a31b-452f-56df-95c2-e06dd024c52f,6146dc2e-9f7e-592f-8724-32cde8555443,719ecd8f-4d59-5e2d-9267-e1207332cda1,team,Back Office - Bangalore - Team 1,,1
+4e275ac1-2b7c-55fc-8a78-e95da52b8a7a,6146dc2e-9f7e-592f-8724-32cde8555443,719ecd8f-4d59-5e2d-9267-e1207332cda1,team,Back Office - Bangalore - Team 2,,1
+809c37af-78b2-56b5-8e9d-fb1f090b9871,6146dc2e-9f7e-592f-8724-32cde8555443,990586e7-e2c1-57dd-8fb9-3b03623b653c,location,Gurgaon,,1
+8cc86de2-e937-5955-ad1f-12c1879384b5,6146dc2e-9f7e-592f-8724-32cde8555443,809c37af-78b2-56b5-8e9d-fb1f090b9871,team,Back Office - Gurgaon - Team 1,,1
+c4d608ae-b5b2-5eae-8169-a8961cc400e7,6146dc2e-9f7e-592f-8724-32cde8555443,809c37af-78b2-56b5-8e9d-fb1f090b9871,team,Back Office - Gurgaon - Team 2,,1
+e162b27f-8eb7-5309-8b25-f0785bff5211,6146dc2e-9f7e-592f-8724-32cde8555443,990586e7-e2c1-57dd-8fb9-3b03623b653c,location,Visakhapatnam,,1
+8b777cf8-8b5e-5e3c-af33-c9c961308662,6146dc2e-9f7e-592f-8724-32cde8555443,e162b27f-8eb7-5309-8b25-f0785bff5211,team,Back Office - Visakhapatnam - Team 1,,1
+a6e56ad7-1a1f-5d71-8a18-b3ef3c1d086b,6146dc2e-9f7e-592f-8724-32cde8555443,e162b27f-8eb7-5309-8b25-f0785bff5211,team,Back Office - Visakhapatnam - Team 2,,1
+4d54bc71-357a-5d10-91de-a4751769f743,6146dc2e-9f7e-592f-8724-32cde8555443,e3be0cc8-86e0-53ab-bc0c-aa5730a9ef11,process,Customer Support,,1
+49e796e9-42a5-5229-9ba5-4c5e3ceaea06,6146dc2e-9f7e-592f-8724-32cde8555443,4d54bc71-357a-5d10-91de-a4751769f743,location,Bangalore,,1
+94c82784-0482-5b5a-9005-e955586fd796,6146dc2e-9f7e-592f-8724-32cde8555443,49e796e9-42a5-5229-9ba5-4c5e3ceaea06,team,Customer Support - Bangalore - Team 1,,1
+4840bf47-57e0-5c14-9538-53ef94e94387,6146dc2e-9f7e-592f-8724-32cde8555443,49e796e9-42a5-5229-9ba5-4c5e3ceaea06,team,Customer Support - Bangalore - Team 2,,1
+fbc3b21f-76d0-527d-8286-7506ccb8acea,6146dc2e-9f7e-592f-8724-32cde8555443,4d54bc71-357a-5d10-91de-a4751769f743,location,Gurgaon,,1
+500af40a-c46f-58a8-b471-b943bb8de8e7,6146dc2e-9f7e-592f-8724-32cde8555443,fbc3b21f-76d0-527d-8286-7506ccb8acea,team,Customer Support - Gurgaon - Team 1,,1
+8ce43b7f-1205-548a-9419-ed7e0a9acddd,6146dc2e-9f7e-592f-8724-32cde8555443,fbc3b21f-76d0-527d-8286-7506ccb8acea,team,Customer Support - Gurgaon - Team 2,,1
+a1e8b9d5-c478-5295-b06c-af93f4acb2d4,6146dc2e-9f7e-592f-8724-32cde8555443,4d54bc71-357a-5d10-91de-a4751769f743,location,Visakhapatnam,,1
+8b5af35c-dade-561d-a8c3-163d9ff5d4fe,6146dc2e-9f7e-592f-8724-32cde8555443,a1e8b9d5-c478-5295-b06c-af93f4acb2d4,team,Customer Support - Visakhapatnam - Team 1,,1
+8ebcbfa7-b889-5d0d-8e20-bb6d9f7d3c53,6146dc2e-9f7e-592f-8724-32cde8555443,a1e8b9d5-c478-5295-b06c-af93f4acb2d4,team,Customer Support - Visakhapatnam - Team 2,,1

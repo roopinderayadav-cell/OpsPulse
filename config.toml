@@ -1,0 +1,26 @@
+# OpsPulse AI - look & feel and server settings
+[theme]
+base = "light"
+primaryColor = "#1D4ED8"
+backgroundColor = "#F4F6FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0F172A"
+borderColor = "#E2E8F0"
+baseRadius = "10px"
+showWidgetBorder = true
+font = "sans-serif"
+chartCategoricalColors = ["#1D4ED8", "#0EA5E9", "#6D28D9", "#0F766E", "#F59E0B", "#64748B"]
+
+[theme.sidebar]
+backgroundColor = "#0B1F3A"
+secondaryBackgroundColor = "#132B4F"
+textColor = "#E2E8F0"
+primaryColor = "#60A5FA"
+borderColor = "#1E3A5F"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = false
+
+[server]
+maxUploadSize = 20

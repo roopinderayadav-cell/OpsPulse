@@ -1,0 +1,4 @@
+# Only needed to run the automated tests on your computer
+-r requirements.txt
+pytest>=8
+pgserver>=0.1.4
