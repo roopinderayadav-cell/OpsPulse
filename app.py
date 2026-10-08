@@ -3,11 +3,14 @@
 Start locally:   streamlit run app.py
 Streamlit Cloud: main file path = app.py
 """
+import sys
 from pathlib import Path
 
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parent
+if str(ROOT) not in sys.path:          # make the opspulse/ package importable on every host
+    sys.path.insert(0, str(ROOT))
 st.set_page_config(page_title="OpsPulse AI", page_icon=str(ROOT / "assets" / "icon.svg"), layout="wide",
                    initial_sidebar_state="auto")
 
