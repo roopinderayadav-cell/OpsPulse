@@ -2,7 +2,7 @@
 
 Usage (run on your own computer, never commit the connection string):
     set DATABASE_URL=postgresql://...        (Windows)   |   export DATABASE_URL=...  (Mac/Linux)
-    python scripts/load_demo_data.py
+    python load_demo_data.py
 
 The migrations in supabase/migrations must already have been run.
 Safe to re-run: it stops if the demo organisation already exists.
@@ -13,12 +13,12 @@ import os
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from sqlalchemy import text  # noqa: E402
 
-from opspulse import config  # noqa: E402
-from opspulse.data import db, synthetic  # noqa: E402
+import op_config as config  # noqa: E402
+import op_db as db, op_synthetic as synthetic  # noqa: E402
 
 
 def main(url: str | None = None) -> int:

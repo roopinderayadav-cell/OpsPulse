@@ -11,16 +11,16 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:          # make the opspulse/ package importable on every host
     sys.path.insert(0, str(ROOT))
-st.set_page_config(page_title="OpsPulse AI", page_icon=str(ROOT / "assets" / "icon.svg"), layout="wide",
+st.set_page_config(page_title="OpsPulse AI", page_icon=str(ROOT / "icon.svg"), layout="wide",
                    initial_sidebar_state="auto")
 
-from opspulse import config  # noqa: E402
-from opspulse.ai import provider as ai  # noqa: E402
-from opspulse.ui import session, theme  # noqa: E402
-from opspulse.views import command_center, modules  # noqa: E402
+import op_config as config  # noqa: E402
+import op_provider as ai  # noqa: E402
+import op_session as session, op_theme as theme  # noqa: E402
+import op_command_center as command_center, op_modules as modules  # noqa: E402
 
 theme.apply()
-st.logo(str(ROOT / "assets" / "logo.svg"), icon_image=str(ROOT / "assets" / "icon.svg"), size="large")
+st.logo(str(ROOT / "logo.svg"), icon_image=str(ROOT / "icon.svg"), size="large")
 
 if not session.access_gate():
     st.stop()
